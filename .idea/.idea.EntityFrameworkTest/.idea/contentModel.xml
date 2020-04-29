@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\sergi\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sergi\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_EntityFrameworkTest.-1403973539.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sergi\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\sergi\RiderProjects\EntityFrameworkTest" t="IncludeFlat">
+      <e p="EntityFrameworkTest" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EntityFrameworkTest.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20200408200648_InitialMigration.cs" t="Include" />
+          <e p="20200408200648_InitialMigration.Designer.cs" t="Include" />
+          <e p="20200414193154_AccountAudit.cs" t="Include" />
+          <e p="20200414193154_AccountAudit.Designer.cs" t="Include" />
+          <e p="20200419063435_Teams.cs" t="Include" />
+          <e p="20200419063435_Teams.Designer.cs" t="Include" />
+          <e p="20200420173831_AccountDeletedFlag.cs" t="Include" />
+          <e p="20200420173831_AccountDeletedFlag.Designer.cs" t="Include" />
+          <e p="20200420185006_AccountStoredProcedure.cs" t="Include" />
+          <e p="20200420185006_AccountStoredProcedure.Designer.cs" t="Include" />
+          <e p="20200425095641_FillWithTempData.cs" t="Include" />
+          <e p="20200425095641_FillWithTempData.Designer.cs" t="Include" />
+          <e p="SampleContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Account.cs" t="Include" />
+          <e p="AccountTeam.cs" t="Include" />
+          <e p="AuditRecord.cs" t="Include" />
+          <e p="Team.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="EntityFrameworkTest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SampleContext.cs" t="Include" />
+        <e p="Samples" t="Include">
+          <e p="01CRUD" t="Include">
+            <e p="Sample01.cs" t="Include" />
+            <e p="Sample02.cs" t="Include" />
+            <e p="Sample03.cs" t="Include" />
+            <e p="Sample04.cs" t="Include" />
+            <e p="Sample05.cs" t="Include" />
+            <e p="Sample06.cs" t="Include" />
+            <e p="Sample07.cs" t="Include" />
+            <e p="Sample08.cs" t="Include" />
+          </e>
+          <e p="02Projections" t="Include">
+            <e p="Sample09.cs" t="Include" />
+            <e p="Sample10.cs" t="Include" />
+            <e p="Sample11.cs" t="Include" />
+            <e p="Sample12.cs" t="Include" />
+            <e p="Sample13.cs" t="Include" />
+          </e>
+          <e p="03Filtering" t="Include">
+            <e p="Sample14.cs" t="Include" />
+            <e p="Sample15.cs" t="Include" />
+          </e>
+          <e p="04RawSql" t="Include">
+            <e p="Sample16.cs" t="Include" />
+            <e p="Sample17.cs" t="Include" />
+          </e>
+          <e p="05EFPlus" t="Include">
+            <e p="Sample18.cs" t="Include" />
+            <e p="Sample19.cs" t="Include" />
+            <e p="Sample20.cs" t="Include" />
+            <e p="Sample21.cs" t="Include" />
+            <e p="Sample22.cs" t="Include" />
+            <e p="Sample23.cs" t="Include" />
+            <e p="Sample24.cs" t="Include" />
+          </e>
+          <e p="06LINQKit" t="Include">
+            <e p="Sample25.cs" t="Include" />
+            <e p="Sample26.cs" t="Include" />
+            <e p="Sample27.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="EntityFrameworkTest.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
