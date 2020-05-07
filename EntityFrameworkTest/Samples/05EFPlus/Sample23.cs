@@ -44,6 +44,13 @@ namespace EntityFrameworkTest.Samples
             // 9. Read from cache. Cache will be removed after 20 minutes of inactivity
             var users9 = await context.Accounts.FromCacheAsync(
                 new MemoryCacheEntryOptions { SlidingExpiration = TimeSpan.FromMinutes(20)}, Accounts);
+
+            // 10. Cache clean with a EF+ 3.0.49+
+            context.Accounts.ExpireCache();   // Erase Accounts cached records
+            QueryCacheManager.ExpireAll();    // Erase all cache
+
+            // 11. Read from a database and put into cache
+            var users10= await context.Accounts.FromCacheAsync(Accounts);
         }
     }
 }
